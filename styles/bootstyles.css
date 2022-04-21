@@ -1,0 +1,49 @@
+body{
+    background-color: #ffffff;
+}
+.common{
+    /*background-color: rgb(56, 55, 53);
+    border: solid 2px rgb(240, 68, 49);*/
+    position: absolute;
+}
+.header{
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: 1px solid #555555;
+}
+.leftMenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: 1px solid #555555;
+}
+.mainBody {
+    top: 114px;
+    right: 5px;
+    left: 114px;
+    bottom: 64px;
+    padding-right: 5px;
+}
+.footer{
+    bottom: 5px;
+    Height: 10px;
+    right: 5px;
+    left: 5px; 
+    position: fixed;
+    font-size: 10px;
+    border-top: 1px solid #555555;
+}
+.subHeader{
+    float: right;
+}
+.fontheader{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555555;
+}
